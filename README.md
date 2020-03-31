@@ -10,7 +10,7 @@ heroku container:login
 git clone https://github.com/xinxin8816/xinrclone.git
 ```
 3. Setup Rclone/Gclone/Autorclone and iKOA. Copy your service accounts Json to folder *accounts*, iKOA Config file *config.toml* and Rclone Config file *rclone.conf*.
-4. There have some bugs for Automatic script, Please run these commands manually.
+4. There have some bugs for Automatic script, Please run these commands manually, $name whatever you like.
 ```sh
 docker pull xinxin8816/xinrclone:0.4
 heroku create -a $name
