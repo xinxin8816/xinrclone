@@ -1,4 +1,4 @@
-$name="xin2rclone"
+$name="xinrclone"
 
 docker pull xinxin8816/xinrclone:0.4
 heroku create -a $name
