@@ -1,5 +1,5 @@
 # Grab the latest xinrclone image
-FROM xinxin8816/xinrclone:0.4
+FROM xinxin8816/xinrclone:latest
 
 # Add your config
 ADD ./config /root/
